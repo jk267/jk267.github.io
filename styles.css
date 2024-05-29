@@ -1,0 +1,108 @@
+body {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color: #f0f0f0;
+    font-family: Arial, sans-serif;
+}
+
+.top-left {
+    position: absolute;
+    top: 20px;
+    left: 20px;
+}
+
+.home-link {
+    color: #333;
+    font-size: 1.5em;
+    text-decoration: none;
+    display: inline-flex;
+    align-items: center;
+    transition: color 0.3s;
+}
+
+.home-link i {
+    margin-right: 5px;
+}
+
+.home-link:hover {
+    color: #0073b1; /* LinkedIn blue */
+}
+
+.blog-link-container {
+    position: absolute;
+    top: 20px;
+    right: 20px;
+}
+
+.blog-link {
+    color: #333;
+    font-size: 1.5em;
+    text-decoration: none;
+    display: inline-flex;
+    align-items: center;
+    transition: color 0.3s;
+}
+
+.blog-link i {
+    margin-right: 5px;
+}
+
+.blog-link:hover {
+    color: #0073b1; /* LinkedIn blue */
+}
+
+.container {
+    text-align: center;
+    padding: 20px;
+}
+
+.profile-picture {
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    object-fit: cover;
+    margin-bottom: 20px;
+}
+
+h1 {
+    margin: 0;
+    font-size: 2em;
+}
+
+.social-links {
+    margin-top: 20px;
+}
+
+.social-links a {
+    margin: 0 10px;
+    color: #333;
+    font-size: 1.5em;
+    transition: color 0.3s;
+    text-decoration: none;
+    display: inline-flex;
+    align-items: center;
+}
+
+.social-links a:hover {
+    color: #0073b1; /* LinkedIn blue */
+}
+
+.container p {
+    font-size: 1.2em;
+    line-height: 1.6;
+}
+
+
+.roboto-slab-font {
+    font-family: "Roboto Slab", serif;
+    font-optical-sizing: auto;
+    font-weight: 200;
+    font-style: normal;
+}
+
